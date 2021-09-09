@@ -1,0 +1,44 @@
+body{
+    background-color: #333;
+    margin: 0;
+}
+
+.banner{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    background-color: #333;
+    box-shadow: 2px 4px 7px -3px rgba(0,0,0,0.75);
+    width: 100%;
+    z-index: 10;
+    padding-right: 4em;
+}
+.foot{
+    display: block;
+}
+.cajon1{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+.cajon2{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+.cajon3{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.foot{
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    height: 20vh;
+    background-color: gray;
+}
